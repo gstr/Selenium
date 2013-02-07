@@ -14,7 +14,7 @@ public class csl1 {
 
 	@Before
 	public void setUp() throws Exception {
-		selenium = new DefaultSelenium("localhost", 2323, "*chrome C:\\Firefox\\firefox.exe", "http://www.chasestudentloans.com");
+		selenium = new DefaultSelenium("localhost", 4444, "*chrome C:\\Firefox\\firefox.exe", "http://www.chasestudentloans.com");
 		selenium.start();
 	}
 
